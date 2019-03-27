@@ -1,4 +1,6 @@
-![icon](./icon.png)
+<p align="center">
+  <img src="./icon.png" />
+</p>
 
 # SAction - Unity's Coroutines made simpler!
 
