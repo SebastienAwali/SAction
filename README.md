@@ -1,6 +1,8 @@
+![icon](./icon.png)
+
 # SAction - Unity's Coroutines made simpler!
 
-SAction is a Unity C# script that wraps Unity's Coroutines, and easily allows developers to create and manage actions over time.
+SAction is a simple Unity C# script that wraps Unity's Coroutines, and easily allows developers to create and manage actions over time.
 
 ## Features
 1. Easy to use: just create a new SAction, subscribe to callbacks and you're done.
@@ -136,7 +138,7 @@ void Start ()
 ```
 
 ## Use cases
-I first created SAction to simplify redundant task I've had in most of my previous projects, such as fading screens, controlling Vector3 interpolation, fading volume and so on. Now I'm using SAction in every new project I create and I still continue finding new uses of this great tool, such as:
+I first created SAction to simplify redundant task I've had in most of my previous projects, such as fading screens, controlling Vector3 interpolation, fading volume and so on. Now I'm using SAction in every new project I create and I still continue finding new uses to it everyday, such as:
 + Fading screens
 + Fading audio volume
 + Vector3 interpolation
