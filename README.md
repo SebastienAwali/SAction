@@ -62,12 +62,12 @@ _action.OnEnd = ActionToPerformOnEnd;
 
 void ActionToPerformOverTime(float progress)
 {
-	Debug.Log("The SAction is completed at " + (progress * 100) + "%");
+    Debug.Log("The SAction is completed at " + (progress * 100) + "%");
 }
 
 void ActionToPerformOnEnd()
 {
-	Debug.Log("The SAction has ended");
+    Debug.Log("The SAction has ended");
 }
 ```
 
@@ -110,17 +110,17 @@ void Start ()
     _action.Duration = 2;
     _action.OverTime = ActionToPerformOverTime;
     _action.OnEnd = ActionToPerformOnEnd;
-  	_action.Start();
+    _action.Start();
 }
 
 void ActionToPerformOverTime(float progress)
 {
-	Debug.Log("The SAction is completed at " + (progress * 100) + "%");
+    Debug.Log("The SAction is completed at " + (progress * 100) + "%");
 }
 
 void ActionToPerformOnEnd()
 {
-	Debug.Log("The SAction has ended");
+    Debug.Log("The SAction has ended");
 }
 ```
 You can also shorten the code above:
@@ -135,7 +135,7 @@ void Start ()
         OverTime = (progress) => { Debug.Log("The SAction is completed at " + (progress * 100) + "%"); },
         OnEnd = () => { Debug.Log("The SAction has ended"); }
     };
-  	_action.Start();
+    _action.Start();
 }
 ```
 
