@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿// Copyright (c) 2018 Sébastien AWALI
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SToolkit.SAction;
 
 public class SActionExample : MonoBehaviour
 {
