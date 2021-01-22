@@ -85,6 +85,9 @@ namespace SToolkit.SAction
             // Stop the previous coroutine if there was one alive
             StopCoroutine();
 
+            // Reset default values
+            Initialize();
+
             // Callback for start action
             if (OnStart != null)
                 OnStart.Invoke();
